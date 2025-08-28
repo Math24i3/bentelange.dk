@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="BN over A">
+  <!-- Transparent background; letters centered -->
+  <style>
+    /* Favicons can’t load web fonts reliably; use sturdy system serif */
+    text {
+      font-family: ui-serif, "Times New Roman", Times, serif;
+      font-weight: 700; /* bold for legibility at small sizes */
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+    .bn { fill: #b22222; } /* architectural red */
+    .a  { fill: #000000; }
+  </style>
+
+  <!-- Optional: uncomment the next rect to force a light background
+  <rect width="128" height="128" fill="#ffffff"/>
+  -->
+
+  <!-- BN (top) -->
+  <text class="bn" x="64" y="48" font-size="64" letter-spacing="2">B L</text>
+  <!-- A (bottom) -->
+  <text class="a"  x="64" y="92" font-size="64">A</text>
+
+  <!-- Optional: subtle white keyline for dark browser UIs (uncomment)
+  <g style="paint-order: stroke; stroke: rgba(255,255,255,0.85); stroke-width: 6;">
+    <text class="bn" x="64" y="48" font-size="64" letter-spacing="2">BN</text>
+    <text class="a"  x="64" y="92" font-size="64">A</text>
+  </g>
+  -->
+</svg>
